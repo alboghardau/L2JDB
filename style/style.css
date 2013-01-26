@@ -1,0 +1,308 @@
+/* 
+    Document   : style
+    Created on : Aug 17, 2011, 10:19:41 PM
+    Author     : l2tactics
+    Description: site's style
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body { }
+.background {  background-color: #2e3037; }
+
+#menu {
+    height: 84px ;
+    width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/menubk.png);
+    
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    text-shadow: #fff 1px 1px 1px; 
+
+    font-weight: bold;
+    color: #333333;
+}
+
+
+
+ul#mitems { 
+
+    top: 34px;
+
+    display: block;
+    position: relative;
+    list-style: none;
+    
+}
+
+ul#mitems li {
+  
+    float:left; 
+    position:relative;
+    padding-right:26px;
+    padding-left: 26px;
+    display:block;
+}
+.intermenu
+{
+    background-image: url(../images/intmenu.png) ;
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    width: 7px;
+    height: 77px;
+    top: -30px;
+}
+a{
+    
+    color: #333333;
+    text-decoration: none;
+    
+}
+a:hover {  
+    color: #666666;
+       
+}
+
+#mzone{
+ width: 944px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+#leftcol {  height:500px ;width: 214px; float:left;}
+
+ul#leftmen li{ background-image: url(../images/menutop.png)}
+
+
+ul#leftmenu
+{
+    top: 50px;
+    padding: 0px;
+}
+li#lefttop {
+    background-image: url(../images/menutop.png);
+    display:block;
+    padding-top: 7px;
+    height: 25px;
+    text-indent: 30px;
+    color: #C4D2E0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-shadow: #000000 1px 1px 1px; 
+    font-size: 14px;
+}
+li#lmenuitem {
+    background-image: url(../images/lmenuitem.png);
+    display:block;
+    padding-top: 7px;
+    height: 26px;
+    text-indent: 30px;
+    color: #C4D2E0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-shadow: #000000 1px 1px 1px; 
+    font-size: 12px;
+}
+li#lmenubot {
+    background-image: url(../images/lmenubot.png);
+    display: block;
+
+    height: 16px;
+
+}
+#contentmain
+{
+    background-image: url(../images/contentmain.png);
+    background-repeat: repeat-y;
+    min-height: 300px;
+    width: 727px;
+}
+#contentbot
+{
+        background-image: url(../images/contentbot.png);
+        width: 727px;
+        height: 38px;
+
+}
+#menumain { height: 30px;}
+#leftuspace {height: 25px;}
+#logozone{
+    width: 944px;
+    height: 125px;
+            margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/logozone.png);
+}
+#logo{
+    top: 32px;
+    left: 50px;
+    width: 300px;
+    height: 70px;
+    position: relative;
+
+}
+li#lmenuclean {
+    background-image: url(../images/lmenuclean.png);
+    display:block;
+    padding-top: 7px;
+   
+    text-indent: 0px;
+    color: #C4D2E0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-shadow: #000000 1px 1px 1px; 
+    font-size: 12px;
+}
+
+#table { width:850px;
+
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #92a5b4;
+    border-left-color: #92a5b4;
+    border-bottom-color: #92a5b4;
+    border-top-color: #92a5b4;
+}
+#col1 { width: 32px; height: 34px; 
+
+}
+#col2 { width: 500px;
+
+
+}
+#col3 { width: 50px;
+
+}
+#col4 { width: 70px; height: 34px; 
+
+}
+#col5 {
+
+}
+#ico { width: 32px;
+    background-color: #ff6633 ;
+    background-image: none;
+}
+
+#map { width: 900px; height: 844px }
+
+#rectbl { width: 450px;
+     border-right-style: dotted;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #92a5b4;
+    border-left-color: #92a5b4;
+    border-bottom-color: #92a5b4;
+    border-top-color: #92a5b4;
+}
+
+#contentheadfull{
+    width: 944px;
+    padding-top: 3px;
+    height: 34px;
+    background-image: url(../images/contentheadf.png);
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+        text-shadow: #fff 1px 1px 1px; 
+}
+#contentmainfull
+{
+    background-image: url(../images/contentmainf.png);
+    background-repeat: repeat-y;
+
+    width: 944px;
+}
+#contentbotfull
+{
+        background-image: url(../images/contentbotf.png);
+        width: 944px;
+        height: 38px;
+}
+#article
+{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+h1{
+    font-size: 20px;
+     text-shadow: #fff 1px 1px 1px; 
+    font-family: Arial,Helvetica,sans-serif;
+}
+h3{
+        font-size: 14px;
+     text-shadow: #fff 1px 1px 1px; 
+    font-family: Arial,Helvetica,sans-serif;
+}
+h4{
+        font-size: 12px;
+     text-shadow: #fff 1px 1px 1px; 
+    font-family: Arial,Helvetica,sans-serif;
+}
+tr.itm{
+
+            
+    background-image: url(../images/cell.png);
+}
+
+tr.itm:hover
+{
+    background-image: url(../images/cellf.png);
+}
+#cmain
+{
+
+padding-left: 214px;
+   
+
+}
+#contenthead{
+    width: 697px;
+    height: 27px;
+    background-image: url(../images/contenthead.png);
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+        text-shadow: #fff 1px 1px 1px; 
+       
+}
+
+#pagination
+{
+    float: right;
+        padding-right: 30px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #660033;
+    
+    word-spacing: 5px;
+    text-shadow: #fff 1px 1px 1px; 
+    
+}
